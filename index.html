@@ -6,9 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    
+
 </head>
-<body>
-    <h1>Chet's Portfolio</h1>
+<body class="font-mono w-full h-[1070px] border-double border-4 border-lime-400">
+
+    <div class="container flex-col text-center mx-auto pt-[20px] pb-[20px]">
+        <h1 class="text-3xl font-bold">Chester Vincent</h1>
+    </div>
+
+    <div class="flex-col mx-auto w-2/3 pb-[20px]">
+        <h1 class="text-center font-bold mb-[10px]">About Me</h1>
+        <p class="relative right-[20px] h-[300px] w-[300px] p-[20px] text-left border-double border-4 border-lime-400">I am a software engineer, musician and artist from Pittsburgh, Pennsylvania. I have a curious mind, and I am a self-motivated and dedicated learner. Throughout my life I have approached every new challenge with enthusiasm and creativity.</p>
+    </div>
+    <div class="flex-col mx-auto w-2/3">
+        <h1 class="text-center font-bold">Resume</h1>
+    </div>
+
+    <div class="swiper mySwiper mt-[20px]">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide">
+    
+        <div class="w-[200px] text-sm">
+        <h1 class="text-lg font-bold absolute top-0">Skills:</h1>
+        <p class="text-left">HTML, CSS, Bootstrap, Tailwind CSS</p>
+        <p class="text-left">React, Vue</p>
+        <p class="text-left">Javascript, jQuery, Python</p>
+        <p class="text-left">Node.js, Django</p>
+        <p class="text-left">PostgreSQL, MongoDB</p>
+        </div>
+    </div>
+    
+    <div class="swiper-slide">
+    
+        <div class="w-[200px] text-xs">
+        <h1 class="text-lg font-bold absolute top-0">Education:</h1>
+        <h3 class="text-left">General Assembly</h3>
+        <h4 class="text-left">Software Engineering Fellow, General Assembly — October 2022 - January 2023</h4>
+        <h3 class="text-left">The George Washington University</h3>
+        <h4 class="text-left">English Bachelor's Degree / Creative Writing Minor</h4>
+        </div>
+    
+    </div>
+
+    <div class="swiper-slide">
+        <div class="w-[200px] text-xs">
+        <h1 class="text-lg font-bold absolute top-0">Experience:</h1>
+        <h3 class="text-left">Automotive Technician, B&M Automotive | Pittsburgh, PA</h3>
+        <h4 class="text-left">Years: 2020 - 2022</h4>
+        <h3 class="text-left">General Technician, C & C Mailing | Gibsonia, PA</h3>
+        <h4 class="text-left">Years: 2016 - 2020</h4>
+        </div>
+    
+    </div>
+
+    <div class="swiper-slide">
+    
+        <div class="w-[200px] text-sm">
+        <h1 class="text-lg font-bold absolute top-0">Life Outside Work:</h1>
+        <p class="text-left">I am a singer-songwriter, musician, and artist. I am very active in the local music and arts scene in Pittsburgh, PA. I spend my outside work hours playing in several bands, running open mics, helping set up festivals and events, and playing with my daughter.</p>
+        </div>
+    
+    </div>
+    </div>
+
+    
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
