@@ -12,9 +12,10 @@
     
 
 </head>
-<body class="font-mono w-full h-[1070px] sm:border-double sm:border-4 sm:border-lime-400">
+<body class="font-mono w-full h-[1500px] sm:border-double sm:border-4 sm:border-lime-400">
+    
 
-    <div class="container flex-col text-center mx-auto pt-[20px] pb-[20px]">
+    <div class="container flex-col text-center mx-auto pt-[80px] pb-[20px]">
         <h1 class="text-3xl font-bold">Chester Vincent</h1>
     </div>
 
@@ -22,34 +23,62 @@
         <h1 class="text-center font-bold mb-[10px]">About Me</h1>
         <p class="relative mx-auto h-[300px] w-[300px] p-[20px] text-left border-double border-4 border-lime-400">I am a software engineer, musician and artist from Pittsburgh, Pennsylvania. I have a curious mind, and I am a self-motivated and dedicated learner. Throughout my life I have approached every new challenge with enthusiasm and creativity.</p>
     </div>
-    <div class="flex-col mx-auto w-2/3">
-        <h1 class="text-center font-bold">Resume</h1>
-    </div>
 
-    <div class="swiper mySwiper mt-[20px]">
+    <div class="sm:grid sm:grid-cols-2 sm:gap-3">
+
+        <div class="relative left-[15px] sm:left-[0px] mx-auto p-[20px] w-2/3 h-[400px] border-double border-4 border-lime-400">
+            <h1 class="text-center font-bold mb-[10px]">Links</h1>
+            <ul>
+            <li><a class="hover:text-white" href="https://github.com/Chetv17">GitHub</a></li>
+            <li><a class="hover:text-white" href="www.linkedin.com/in/chester-vincent">Linkedin</a></li>
+            <li><a class="hover:text-white" href="https://www.instagram.com/chet_vincent/">Instagram</a></li>
+            </ul>
+            <br />
+            <h1 class="text-center font-bold mb-[10px]">General Assembly Projects</h1>
+            <ul>
+                <li><a class="hover:text-white" href="https://quiet-forest-01124.herokuapp.com/">43rd Street Records</a></li>
+                <li><a class="hover:text-white" href="https://enchanting-tiramisu-12d837.netlify.app/api/playlists">Mixtape</a></li>
+                <li><a class="hover:text-white" href="https://polite-souffle-7c2e9b.netlify.app/">RecipeBook</a></li>
+                <li><a class="hover:text-white" href="https://polite-souffle-7c2e9b.netlify.app/">Redwood Coffee Roasters</a></li>
+                </ul>
+            
+        </div>
+    
+
+    <div class="swiper mySwiper mt-[80px] sm:mt-[0px]">
     <div class="swiper-wrapper">
     <div class="swiper-slide">
     
         <div class="w-[280px] text-xs">
         <h1 class="text-lg font-bold absolute left-[10px] top-[5px]">Skills:</h1>
-        <p class="text-left">HTML, CSS, Bootstrap, Tailwind CSS</p>
-        <p class="text-left">React, Vue</p>
-        <p class="text-left">Javascript, jQuery, Python</p>
-        <p class="text-left">Node.js, Django</p>
-        <p class="text-left">PostgreSQL, MongoDB</p>
+        <div class="relative top-[10px] left-[10px] grid grid-cols-3 gap-3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" class="w-[60px] "/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" class="w-[60px]"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" class="w-[60px]"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" class="w-[60px]"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" class="w-[60px]"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" class="w-[60px]"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png" class="w-[60px]"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/JQuery_logo_text.svg" class="w-[60px]"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class="w-[60px]"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Django_logo.png" class="w-[60px]"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" class="w-[60px]"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" class="w-[60px]"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" class="w-[60px]"/>
         </div>
+    </div>
     </div>
     
     <div class="swiper-slide">
     
         <div class="w-[280px] text-xs">
         <h1 class="text-lg font-bold absolute left-[10px] top-[5px]">Education:</h1>
-        <h3 class="text-left text-bold mb-[5px]">General Assembly</h3>
-        <h4 class="text-left">Software Engineering Fellow</h4>
-        <h4 class="text-left mb-[20px]">October 2022 - January 2023</h4>
-        <h3 class="text-left font-bold mb-[5px]">The George Washington University</h3>
-        <h4 class="text-left">English Bachelor's Degree</h4>
-        <h4 class="text-left"></h4>Creative Writing Minor</h4>
+        <h3 class="text-center font-bold mb-[5px]">General Assembly</h3>
+        <h4 class="text-center font-normal">Software Engineering Fellow</h4>
+        <h4 class="text-center font-normal mb-[20px]">October 2022 - January 2023</h4>
+        <h3 class="text-center font-extrabold mb-[5px]">The George Washington University</h3>
+        <h4 class="text-center font-normal">English Bachelor's Degree</h4>
+        <h4 class="text-center font-normal">Creative Writing Minor</h4>
         </div>
     
     </div>
@@ -57,14 +86,14 @@
     <div class="swiper-slide">
         <div class="w-[280px] text-xs">
         <h1 class="text-lg font-bold absolute left-[10px] top-[5px]">Experience:</h1>
-        <h3 class="text-left">Automotive Technician</h3>
-        <h4 class="text-left">B&M Automotive</h4>
-        <h4 class="text-left">Pittsburgh, PA</h4>
-        <h4 class="text-left mb-[20px]">Years: 2020 - 2022</h4>
-        <h3 class="text-left">General Technician</h3>
-        <h3 class="text-left"></h3>C & C Mailing</h3>
-        <h4 class="text-left"></h4> Gibsonia, PA</h4>
-        <h4 class="text-left">Years: 2016 - 2020</h4>
+        <h3 class="text-left font-bold">Automotive Technician</h3>
+        <h4 class="text-left font-normal">B&M Automotive</h4>
+        <h4 class="text-left font-normal">Pittsburgh, PA</h4>
+        <h4 class="text-left font-normal mb-[20px]">Years: 2020 - 2022</h4>
+        <h3 class="text-left font-bold">General Technician</h3>
+        <h3 class="text-left font-normal"></h3>C & C Mailing</h3>
+        <h4 class="text-left font-normal"></h4> Gibsonia, PA</h4>
+        <h4 class="text-left font-normal">Years: 2016 - 2020</h4>
         </div>
     
     </div>
@@ -73,11 +102,21 @@
     
         <div class="w-[280px] text-sm">
         <h1 class="text-lg font-bold absolute left-[10px] top-[5px]">Life Outside Work:</h1>
-        <p class="text-left">I am a singer-songwriter, musician, and artist. I am very active in the local music and arts scene in Pittsburgh, PA. I spend my outside work hours playing in several bands, running open mics, helping set up festivals and events, and playing with my daughter.</p>
+        <p class="text-left font-normal">I am a singer-songwriter, musician, and artist. I am very active in the local music and arts scene in Pittsburgh, PA. I spend my outside work hours playing in several bands, running open mics, helping set up festivals and events, and playing with my daughter.</p>
         </div>
     
     </div>
     </div>
+    </div>
+
+    <div class="grid grid-cols-6 gap-4 mt-[80px] sm:mt-[0]">
+    <div class="col-start-2 col-span-4 mx-auto left-[15px] sm:left-[0px] mx-auto p-[20px] w-full h-[550px] sm:h-[400px] border-double border-4 border-lime-400">
+        <h1 class="text-center font-bold mb-[10px]">Bio</h1>
+        <p>Born and raised in Pittsburgh, PA. I have been an active musician and artist in the area for many years. During that time I have held jobs in a vareity of fields -- from service industry, to managing a smll local market, to automotive technician. All of these past experiences, I believe, have contributed to my developing career as a software engineer.</p>  
+    </div>
+</div>
+
+    
 
     
 

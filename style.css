@@ -4,6 +4,11 @@ body {
     color: greenyellow;
 }
 
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
 .swiper {
     width: 300px;
     height: 400px;
@@ -32,5 +37,7 @@ body {
   }
 
   .swiper-slide:nth-child(4n) {
-    background-color: rgb(184, 10, 158);
+    background-color: rgb(211, 122, 7);
   }
+
+  
